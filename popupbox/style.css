@@ -1,0 +1,29 @@
+#box {
+    background-color: bisque;
+    height: 300px;
+    width: 700px;
+    visibility: hidden;
+}
+
+body {
+    background-color: aqua;
+}
+
+#box.show {
+    visibility: visible;
+}
+
+.cross {
+    text-align: end;
+}
+
+.cross span {
+    cursor: pointer;
+    margin-top: 10px;
+    text-align: center;
+    display: inline-block;
+    width: 24px;
+    font-size: 100%;
+    background-color: red;
+    border-radius: 50%;
+}
