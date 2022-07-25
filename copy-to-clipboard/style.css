@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+body{
+    height:100vh;
+    background: lightslategray
+}
+
+h1{
+    text-align: center;
+}
+.one,.three{
+    margin-top: 3vh;
+    margin-left: 40%;
+
+}
+.two{
+    margin-top: 3vh;
+    margin-left: 38%;
+
+}
+
+textarea{
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: lightgoldenrodyellow;
+}
+
+.copybtn,.pastebtn{
+    border: 2px solid black;
+    margin-right: 20%;
+    background-color: aquamarine;
+    cursor: pointer;
+    width: 10%;
+}
