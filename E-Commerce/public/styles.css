@@ -1,0 +1,190 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+ min-height: 100vh;
+  background-color: beige;
+  display: flex;
+    flex-direction: column;
+
+}
+
+
+.login-register,
+.product-form,
+.review-form,
+.checkout-form,
+.cart-show {
+
+  width: 100%;
+  margin: 25px auto;
+}
+
+.login-register {
+  max-width: 300px;
+}
+
+.product-form,
+.review-form,
+.cart-show {
+  max-width: 500px;
+}
+
+.checkout-form {
+  max-width: 800px;
+}
+
+.resp-img {
+  width: 100%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.pro-ind {
+  height: 225px;
+}
+
+.pro-show {
+  height: 350px;
+}
+
+.cart,
+.order {
+  height: 100px;
+}
+
+.a,
+.a-order,
+.a-order:hover {
+  color: black;
+}
+
+.a:hover {
+  color: #007bff;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+.opac {
+  opacity: 0.8;
+}
+
+.screen-center-conf {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -185px;
+}
+
+.screen-center-cart {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -110px;
+  margin-left: -150px;
+}
+
+.empty-cart-img {
+  width: 200px;
+  height: 150px;
+}
+
+.ord-ind-div {
+  width: 100%;
+  max-width: 550px;
+  margin: auto;
+}
+
+.ord-show-div {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.white {
+  color: white;
+}
+
+.mrp {
+  text-decoration: line-through;
+  opacity: 0.8;
+  font-size: 0.8em;
+}
+
+.disc {
+  color: yellow;
+  font-size: 0.8em;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.navbar .navbar-nav .dropdown .dropdown-menu .dropdown-item:hover {
+  color: #007bff;
+}
+
+.card-body{
+  background-color: slategray;
+  border-bottom-right-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+  color: white;
+}
+.card{
+  margin-bottom: 1rem;
+  
+  border-radius: 2rem;
+}
+.card-img-top{
+border-top-left-radius: 2rem;
+border-top-right-radius: 2rem;
+
+}
+.card-title{
+  color: white;
+}
+.logo-img{
+  border-radius: 1rem;
+}
+
+/* FOOTER */
+
+.footer{
+  margin-top: auto;
+  bottom: 0;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+  padding-bottom: 0.5rem;
+  background-color: rgb(102, 98, 98);
+}
+
+
+.footer .row img{
+  padding-top: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  height: max-content;
+  width: 2rem;
+  
+  
+}
+.footer .row a{
+  justify-content: center;
+  align-items: center;
+  height: 2rem;
+  width: 2rem;
+  margin: 1rem;
+  
+}
+.footer .row span{
+  left:  5rem;
+  color: white;
+}
